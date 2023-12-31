@@ -70,16 +70,26 @@ tl.from('#hero-intro h3', {
     // delay: 0.2,
     duration: 1
 });
-
-
-tl.from('#hero-intro h1 span, h1', {
+// tl.from('#hero-intro h2', {
+//     // scale:2,
+//     opacity: 0,
+//     // delay: 0.2,
+//     duration: 1
+// });
+tl.from('#hero-intro h1,  h1 span', {
     // scale:2,
     opacity: 0,
     // delay: 0.1,
     duration: 3,
     // repeat:-1,
-    stagger:0.3
 });
+// tl.from('#hero-intro h1 span', {
+//     // scale:2,
+//     opacity: 0,
+//     // delay: 0.1,
+//     duration: 1,
+//     // repeat:-1,
+// });
 
 gsap.from('#page2 #skill-cont #skill-head h1', {
     opacity:0,
