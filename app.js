@@ -80,12 +80,21 @@ tl.from('#hero-intro h1', {
     // scale:2,
     opacity: 0,
     // delay: 0.1,
-    duration: 0.6
+    duration: 3,
+    // repeat:-1,
+});
+tl.from('#hero-intro h1 span', {
+    // scale:2,
+    opacity: 0,
+    // delay: 0.1,
+    duration: 3,
+    // repeat:-1,
 });
 
 gsap.from('#page2 #skill-cont #skill-head h1', {
     opacity:0,
     duration: 1,
+   
     scrollTrigger:{
         trigger:'#hero-intro h1',
         scroller:'#main',
@@ -130,7 +139,7 @@ gsap.from('#page3 h3',{
     
 })
 gsap.from('#about #about-me h3, #about #who-am-I h3, #about #apart h3, #apart ul li, #whyCode h3,#about-me p, #about #who-am-I p, #about #apart p, #whyCode p ',{
-    y:10,
+    y:13,
     duration: 3,
     opacity:0,
     stagger:1,
